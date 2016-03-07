@@ -1,65 +1,42 @@
-* {
-  -webkit-animation: color_change 4s infinite alternate;
-  -moz-animation: color_change 4s infinite alternate;
-  -ms-animation: color_change 4s infinite alternate;
-  -o-animation: color_change 4s infinite alternate;
-  animation: color_change 4s infinite alternate;
-  font-family: 'Roboto', sans-serif;
-}
+/* Page styles */
 
-/* Question Text */
-.question_div {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.question {
-  font-size: 200px;
-  font-family: 'Roboto', sans-serif;
+
+/* Text styles */
+
+.logo {
+  font-family: helvetica, sans-serif;
+  font-size: 72px;
   font-weight: bold;
+  color: #000;
   position: relative;
-  text-decoration: none;
-  text-align: center;
-  margin-top: 0.5em;
-
+  margin: 5px;
+  float: left;
 }
 
-.question a {
-  text-decoration: none;
-  color: #fff;
-  border: 4px solid #fff;
+.info {
+  font-family: helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+  color: #000;
+  position: relative;
+  float: left;
 }
 
-a:visited {
+
+/* Link styles */
+
+a {
   text-decoration: none;
-  color: #fff;
+  color: #7CB0C2;
 }
 
 a:hover {
   text-decoration: none;
-  color: #8DC27C;
+  color: #C28E7C;
 }
 
-/* Keyframes */
-
-@-webkit-keyframes color_change {
-  from {background-color: #7CB0C2; }
-  to {background-color: #C28E7C; }
-}
-@-moz-keyframes color_change {
-  from {background-color: #7CB0C2; }
-  to {background-color: #C28E7C; }
-}
-@-ms-keyframes color_change {
-  from {background-color: #7CB0C2; }
-  to {background-color: #C28E7C; }
-}
-@-o-keyframes color_change {
-  from {background-color: #7CB0C2; }
-  to {background-color: #C28E7C; }
-}
-@keyframes color_change {
-  from {background-color: #7CB0C2; }
-  to {background-color: #C28E7C; }
+a:visited {
+  text-decoration: none;
+  color: #C28E7C;
 }
