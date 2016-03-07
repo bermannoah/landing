@@ -1,0 +1,50 @@
+/* Page styles */
+* {
+  background-color: #fff;
+}
+
+
+/* Text styles */
+
+.logo {
+  font-family: helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #000;
+  position: relative;
+  margin: 20px;
+  float: left;
+}
+
+.info {
+  font-family: helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #000;
+  position: relative;
+  float: left;
+  clear: both;
+  margin: 23px;
+  line-height: 40px;
+}
+
+
+/* Link styles */
+
+a {
+  text-decoration: none;
+  color: #7CB0C2;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #C28E7C;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #8DC27C;
+}
+a:visited:hover {
+  color: #C28E7C;
+}
