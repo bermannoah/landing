@@ -17,7 +17,7 @@
 }
 
 .info {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 1.5em;
   font-weight: 400;
   color: #000;
@@ -26,6 +26,10 @@
   clear: both;
   margin: 23px;
   line-height: 40px;
+}
+
+.info > p {
+  font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 
