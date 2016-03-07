@@ -12,7 +12,7 @@
 /* Text styles */
 
 .logo {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 50px;
   font-weight: 900;
   color: #000;
@@ -21,12 +21,11 @@
   float: left;
   margin-top: 50px;
   margin-left: 75px;
-  padding: 5px;
-  border: 1px solid black;
+  border-bottom: 5px solid black;
 }
 
-.logo > p {
-  font-family: 'Roboto', Helvetica, sans-serif;
+.logo > a {
+  font-family: Helvetica, sans-serif;
   font-size: 50px;
   font-weight: 900;
 }
@@ -43,11 +42,10 @@
   line-height: 40px;
   margin-left: 75px;
   padding: 5px;
-  border: 1px solid black;
 }
 
 .info > p {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 900;
 }
 
@@ -70,6 +68,20 @@ a:visited {
 }
 a:visited:hover {
   color: #8DC27C;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo > a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo > a:visited {
+  color: #000;
 }
 
 /* Keyframes */
