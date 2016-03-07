@@ -19,7 +19,7 @@
 .info {
   font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 900;
   color: #000;
   position: relative;
   float: left;
@@ -30,7 +30,7 @@
 
 .info > p {
   font-family: 'Roboto', Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 
